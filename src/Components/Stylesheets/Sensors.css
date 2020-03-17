@@ -1,0 +1,28 @@
+.sensor {
+    background-color: grey;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    font: 15px arial, sans-serif;
+  }
+  
+  .sensor-panel {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgrey;
+  }
+
+  .sensor-heading {
+      display: flex;
+      justify-content: center;
+  }
+
+  .button {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+  }
