@@ -13,8 +13,8 @@ class ControlBoard extends React.Component {
     render(){
         return(
             <div>
-                <button onClick={axios.post("http://localhost:8080/api/navigation", {direction: this.state.direction})}>
-                Click me!
+                <button onClick={axios.post("http://localhost:8080/api/navigation", this.state.direction)}>
+                Post!
                 </button>
             </div>
         );
