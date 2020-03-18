@@ -8,6 +8,17 @@
     margin: 15px;
     font: 15px arial, sans-serif;
   }
+
+  .stop {
+    background-color: red;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    font: 15px arial, sans-serif;
+  }
   
   .sensor-panel {
     display: flex;
