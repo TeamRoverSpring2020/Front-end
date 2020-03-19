@@ -11,6 +11,9 @@ class App extends React.Component {
       <div>
         <Sensors/>
         <ControlBoard/>
+        <div>
+          <img src="http://81.166.35.95:8000/stream.mjpg"></img>
+        </div>
       </div>
     )
   }

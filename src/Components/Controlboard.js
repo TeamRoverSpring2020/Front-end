@@ -11,7 +11,7 @@ class ControlBoard extends React.Component {
         this.handlClick = this.handlClick.bind(this);
     }
 
-    handlClick(control){
+    handleClick(control){
         this.setState({direction: control});
         axios.post('http://localhost:8080/api/navigation', this.state.direction)
             .then(console.log("post request sent"))
