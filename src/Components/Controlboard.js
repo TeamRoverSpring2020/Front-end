@@ -22,19 +22,19 @@ class ControlBoard extends React.Component {
             <div>
               <div className="sensor-heading"><h2>Controlboard</h2></div>
               <div className="sensor-panel">
-                <button onClick={() => this.handlClick("left")} className="sensor">
+                <button onClick={() => this.handleClick("left")} className="sensor">
                   Left
                 </button>
-                <button onClick={() => this.handlClick("right")} className="sensor">
+                <button onClick={() => this.handleClick("right")} className="sensor">
                   Right
                 </button>
-                <button onClick={() => this.handlClick("drive")} className="sensor">
+                <button onClick={() => this.handleClick("drive")} className="sensor">
                   Drive
                 </button>
-                <button onClick={() => this.handlClick("reverse")} className="sensor">
+                <button onClick={() => this.handleClick("reverse")} className="sensor">
                   Reverse
                 </button>
-                <button onClick={() => this.handlClick("stop")} className="stop">
+                <button onClick={() => this.handleClick("stop")} className="stop">
                   STOP
                 </button>
               </div>
