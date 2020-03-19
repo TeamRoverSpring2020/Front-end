@@ -22,6 +22,10 @@ class Sensors extends React.Component {
       data.then(respons => this.setState({sensorData: respons.data}))
     }
   
+    componentDidMount(){
+      this.changeState();
+    }
+
     render() {
       return(
         <div>

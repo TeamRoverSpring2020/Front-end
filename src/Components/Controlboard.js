@@ -8,7 +8,7 @@ class ControlBoard extends React.Component {
         this.state = {
             direction: ""
         }
-        this.handlClick = this.handlClick.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(control){
